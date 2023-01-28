@@ -15,7 +15,7 @@ public class Main {
         phone=phone.replace(" ","");
         phone=phone.replace("+","");
         if (phone.length()==10) {
-        //    phone = '7' + phone;
+            //    phone = '7' + phone;
         } else if(phone.length()>11){
             throw new RuntimeException("Телефон слишком длинный");
         } else if (phone.length() < 10) {
@@ -48,12 +48,12 @@ public class Main {
     }
 
     public static void task3(){
-            System.out.println("Task3");
-            String firstName = "Семен";
-            String middleName = "Семёнович";
-            String lastName = "Иванов";
-            String fullName = lastName + " " + firstName + " " + middleName;
-            fullName = fullName.replace("ё", "e");
-            System.out.println("Данные ФИО сотрудника —" + fullName);
+        System.out.println("Task3");
+        String firstName = "Семен";
+        String middleName = "Семёнович";
+        String lastName = "Иванов";
+        String fullName = lastName + " " + firstName + " " + middleName;
+        fullName = fullName.replace("ё", "e");
+        System.out.println("Данные ФИО сотрудника —" + fullName);
     }
 }
